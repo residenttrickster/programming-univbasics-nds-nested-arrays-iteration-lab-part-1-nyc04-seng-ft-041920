@@ -8,9 +8,9 @@ while row_index < array_of_arrays.count do
   while element_index < array_of_arrays[row_index].count do
     if array_of_arrays[row_index][element_index] %2 ==0
       p array_of_arrays[row_index][element_index]
+    end 
     element_index += 1
   end
   row_index+=1
 end
-
 end
